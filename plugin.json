@@ -1,0 +1,9 @@
+{
+  "name": "Transformations",
+  "description": "Create, run, and schedule SQL transformations of your Google BigQuery data.",
+  "delivery": {
+    "type": "remote",
+    "url": "https://bi-plugins.owox.com/transformation/"
+  },
+  "credentials": []
+}
