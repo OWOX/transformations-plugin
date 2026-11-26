@@ -38,7 +38,7 @@ This transformation uses the data that is a result of  [Sessionization - OWOX B
 > A (APPEND) - operation, that adds new data to the table.  
 > U (UPDATE) - operation, that updates data in the table. 
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/01/public)
+![](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/01/public)
 
 Below, you'll find a handy list of operations in the transformation template, each briefly described for your convenience. However, if you're eager to get started, feel free [to jump into the "How to start" article](https://github.com/OWOX/transformations-plugin/blob/main/docs/templates/ecom-data-model.md#how-to-create-transformation-from-ecom-data-model-template).
 
@@ -298,14 +298,14 @@ In this article, you will find step-by-step instructions about how to create a T
 
 **Step 1.** Go to the Workspace page and click the "New..." button in the top panel over the diagram. Choose the “New transformation” option in the popup menu.
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/02/public)
+![](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/02/public)
 
 **Step 2.** Now you will see the dialog with Templates gallery options. Choose the 'Ecom Data Model'  template from the list in the sidebar:
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/03/public)
+![](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/03/public)
 
 **Step 3.** Click on the “Create & setup” button. And you will see your new Transformation:  
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/04/public)
+![](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/04/public)
 
 ### How you can customize the template
 
@@ -648,20 +648,20 @@ For the correct data importing and its further analysis, make sure you follow th
 We recommend uploading data via the BigQuery web UI. To do that, make up a CSV table with your data and upload it following the instructions below.
 
 1.  Open [Google BigQuery web interface](https://bigquery.cloud.google.com/)
-2.  **Create a new dataset** in your Google BigQuery project. Select the project in the **Resources** section, then click **Create dataset** in the window to the right:![Import\_transactions\_1.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/05/public)
+2.  **Create a new dataset** in your Google BigQuery project. Select the project in the **Resources** section, then click **Create dataset** in the window to the right:![Import\_transactions\_1.png](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/05/public)
 3.  Specify the **Dataset ID** and **Data location**. Note: the data location must be the same as the location of all the other data you want to blend in OWOX BI.  
-    Then, click **Create dataset**:**![Import\_transactions\_2.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/06/public)**
-4.  **Create a new table**: Click the 'plus' icon on the right to the dataset name:![Import\_transactions\_3.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/07/public)
-5.  Select **Create table from**: **Upload**, then specify the file location and format (**CSV**), then type in the name for the new table:![Import\_transactions\_4.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/08/public)
-6.  Make up the data schema in the **Schema** section. You can add fields one by one by clicking **Add Field** and following [this data schema](https://github.com/OWOX/transformations-plugin/blob/main/docs/templates/ecom-data-model.md#crm-data), or simply click **Edit as Text** and paste the full schema in the JSON format (copy it from the snippet right after the screenshot below):![Import\_transactions\_5.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/09/public)
+    Then, click **Create dataset**:**![Import\_transactions\_2.png](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/06/public)**
+4.  **Create a new table**: Click the 'plus' icon on the right to the dataset name:![Import\_transactions\_3.png](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/07/public)
+5.  Select **Create table from**: **Upload**, then specify the file location and format (**CSV**), then type in the name for the new table:![Import\_transactions\_4.png](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/08/public)
+6.  Make up the data schema in the **Schema** section. You can add fields one by one by clicking **Add Field** and following [this data schema](https://github.com/OWOX/transformations-plugin/blob/main/docs/templates/ecom-data-model.md#crm-data), or simply click **Edit as Text** and paste the full schema in the JSON format (copy it from the snippet right after the screenshot below):![Import\_transactions\_5.png](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/09/public)
 
 Copy the schema in JSON here:
 
 \[ { "name": "user\_id", "type": "STRING", "mode": "REQUIRED" }, { "name": "client\_id", "type": "STRING", "mode": "NULLABLE" }, { "name": "user\_phone", "type": "STRING", "mode": "NULLABLE" }, { "name": "user\_email", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_id", "type": "STRING", "mode": "REQUIRED" }, { "name": "transaction\_status", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_responsible", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_coupon", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_discount", "type": "FLOAT", "mode": "NULLABLE" }, { "name": "transaction\_revenue", "type": "FLOAT", "mode": "NULLABLE" }, { "name": "transaction\_currency", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_payment\_type", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_delivery\_type", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_delivery\_service", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_delivery\_time", "type": "INTEGER", "mode": "NULLABLE" }, { "name": "transaction\_touchpoint", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_store\_id", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_city", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_region", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_country", "type": "STRING", "mode": "NULLABLE" }, { "name": "transaction\_created", "type": "TIMESTAMP", "mode": "NULLABLE" }, { "name": "transaction\_changed", "type": "TIMESTAMP", "mode": "NULLABLE" }, { "name": "product\_id", "type": "STRING", "mode": "REQUIRED" }, { "name": "product\_name", "type": "STRING", "mode": "NULLABLE" }, { "name": "product\_category", "type": "STRING", "mode": "NULLABLE" }, { "name": "product\_groupcategory1", "type": "STRING", "mode": "NULLABLE" }, { "name": "product\_groupcategory2", "type": "STRING", "mode": "NULLABLE" }, { "name": "product\_groupcategory3", "type": "STRING", "mode": "NULLABLE" }, { "name": "product\_brand", "type": "STRING", "mode": "NULLABLE" }, { "name": "product\_cogs", "type": "FLOAT", "mode": "NULLABLE" }, { "name": "product\_quantity", "type": "INTEGER", "mode": "REQUIRED" }, { "name": "product\_price", "type": "FLOAT", "mode": "REQUIRED" }, { "name": "promo\_name", "type": "STRING", "mode": "NULLABLE" }, { "name": "promo\_start", "type": "TIMESTAMP", "mode": "NULLABLE" }, { "name": "promo\_end", "type": "TIMESTAMP", "mode": "NULLABLE" } \]
 
-7\. Set **Advanced options**. Set **Header rows to skip** as **1** so the data would be imported with no errors. You can also specify the allowed amount of errors to avoid errors when the table is created:![Import\_transactions\_6.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/10/public)
+7\. Set **Advanced options**. Set **Header rows to skip** as **1** so the data would be imported with no errors. You can also specify the allowed amount of errors to avoid errors when the table is created:![Import\_transactions\_6.png](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/10/public)
 
-After clicking **Create** **Table**, the table will be uploaded to BigQuery:![Import\_transactions\_7.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-ecom-data-model/11/public)
+After clicking **Create** **Table**, the table will be uploaded to BigQuery:![Import\_transactions\_7.png](https://cdn.owox.com/plugins/transformations/templates-ecom-data-model/11/public)
 
 ## Changelog of the 'Ecom Data Model' template.
 
