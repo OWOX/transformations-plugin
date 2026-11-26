@@ -4,7 +4,7 @@
 
 Welcome to the OWOX BI Transformation guide, which helps you set up all features and get analytics-ready data for your reports.
 
-![\_\_\_\_01.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/01/public)
+![\_\_\_\_01.png](https://cdn.owox.com/plugins/transformations/quick-start/01/public)
 
 OWOX BI Transformation is a self-service analytics tool to automate routine tasks of preparing and updating data for reporting. Use [prebuilt SQL transformations](https://github.com/OWOX/transformations-plugin/tree/main/docs/templates) or create your own to achieve any kind of analytics challenges.
 
@@ -59,15 +59,15 @@ In this article, you will find step-by-step instructions about how to create a T
 ### Step 1. Create a new Transformation
 
 1.1. Go to the [Workspace page](https://bi.owox.com/ui/app/none/workspace). While you do not have any Pipeline, Streaming, or Transformation yet, then you will see the Welcome screen. Click on the “**New transformation**” button.  
-![Frame\_2025.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/02/public)
+![Frame\_2025.png](https://cdn.owox.com/plugins/transformations/quick-start/02/public)
 
 1.2. Otherwise, click the "**\+ New...**" button in the top panel over the diagram if you have one or more Pipeline, Streaming, or Transformation. Click on the “Transformation” menu item.
 
-![\_\_\_\_create-transfrom.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/03/public)
+![\_\_\_\_create-transfrom.png](https://cdn.owox.com/plugins/transformations/quick-start/03/public)
 
 1.3. Create a **new blank** or **template-based** Transformation. Choose one option from the list in the sidebar:
 
-![1120.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/04/public)
+![1120.png](https://cdn.owox.com/plugins/transformations/quick-start/04/public)
 
 While browsing the [Templates gallery](https://github.com/OWOX/transformations-plugin/tree/main/docs/templates), you can read the detailed template description and see a list of Operations.
 
@@ -77,7 +77,7 @@ After selecting an option, click on the “**Create & Setup**” button.
 
 2.1. On the Transformation page, go to the **Code Editor** tab. You will see that the new Transformation already has the first Operation with the SQL code `"SELECT 1;"`.
 
-![\_\_\_04.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/05/public)
+![\_\_\_04.png](https://cdn.owox.com/plugins/transformations/quick-start/05/public)
 
 **How to configure a Transformation template**
 
@@ -85,7 +85,7 @@ If you have created a Transformation from a template, you need to enter the corr
 
 2.2. Write your custom SQL code in the editor. And [create multiple Operations](https://github.com/OWOX/transformations-plugin/blob/main/docs/operation-settings.md#creating-a-new-operation) in one Transformation. It will help break down the data transformation process into several logical steps. You can easily change the order of the Operations in the Transformation.
 
-![\_\_\_05.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/06/public)
+![\_\_\_05.png](https://cdn.owox.com/plugins/transformations/quick-start/06/public)
 
 2.3. Validate your code. The entered SQL code undergoes validation to ensure that the query can be executed when the Transformation is run. If there are any errors during the validation process, you will see them in the top toolbar above the code. [In this article](https://github.com/OWOX/transformations-plugin/blob/main/docs/operation-settings.md#validations-and-estimations), you can see some examples of common errors that can occur during SQL query validation. 
 
@@ -93,29 +93,29 @@ When the code validation is successfully passed, you will see a green mark that 
 
 2.4. (Optional) Specify a destination table for the Operation.
 
-![\_\_\_08.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/07/public)
+![\_\_\_08.png](https://cdn.owox.com/plugins/transformations/quick-start/07/public)
 
 When you run the Transformation, the OWOX BI algorithm will save the result of executing SQL code into the table in Google BigQuery. You can learn more about setting up a destination table in [this article](https://github.com/OWOX/transformations-plugin/blob/main/docs/operation-settings.md#destination-settings). 
 
 2.5. (Optional) Add variables to the Transformation and use them in the SQL code.
 
-![\_\_\_09.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/08/public)
+![\_\_\_09.png](https://cdn.owox.com/plugins/transformations/quick-start/08/public)
 
 Variables allow you to set values applied in multiple Operations without changing the SQL code before each Transformation run. Using variables greatly speeds up routine work. Read more about using variables in [this article](https://github.com/OWOX/transformations-plugin/blob/main/docs/transformation-settings.md#dynamic-variables).
 
 2.6. Preview your code. Go to the '**Preview**' tab to see the compiled SQL query that will be executed when the Transformation is run. Read more about the 'Preview' tab in [this article](https://github.com/OWOX/transformations-plugin/blob/main/docs/operation-settings.md#preview-tab).
 
-![\_02.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/09/public)
+![\_02.png](https://cdn.owox.com/plugins/transformations/quick-start/09/public)
 
 2.7. **Save** your changes.
 
-![\_03.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/10/public)
+![\_03.png](https://cdn.owox.com/plugins/transformations/quick-start/10/public)
 
 ### Step 3. Share used datasets with OWOX BI
 
 3.1. Go to the '**Used datasets**' tab to view the list of used datasets.
 
-![02.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/11/public)
+![02.png](https://cdn.owox.com/plugins/transformations/quick-start/11/public)
 
 3.2. If a Transformation uses data from BigQuery datasets that are not accessible to OWOX BI, the Transformation cannot be successfully executed. To run the Transformation and obtain the execution results for each Operation, you need to grant access to all the used datasets. To do this, click on the '**Share used datasets**' button. You can read more details in [this article](https://github.com/OWOX/transformations-plugin/blob/main/docs/transformation-settings.md#used-datasets-tab).
 
@@ -125,7 +125,7 @@ Variables allow you to set values applied in multiple Operations without changin
 
 Click on the “**Run**” button to start the sequential execution of the Operations in the Transformation.
 
-![\_\_\_12.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/12/public)
+![\_\_\_12.png](https://cdn.owox.com/plugins/transformations/quick-start/12/public)
 
 > **Important:**  
 > Run is only available for Transformations that have no unsaved changes. If you have changed the code or made other changes to the Transformation, be sure to save those changes.
@@ -136,7 +136,7 @@ Click on the “**Run**” button to start the sequential execution of the Opera
 
 After running the Transformation, the “Run history” tab opens. Here you find details about the execution of each Operation.
 
-![\_\_\_13.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/quick-start/13/public)
+![\_\_\_13.png](https://cdn.owox.com/plugins/transformations/quick-start/13/public)
 
 Read more about the Run history tab in [this article](https://github.com/OWOX/transformations-plugin/blob/main/docs/transformation-settings.md#run-history-tab).
 

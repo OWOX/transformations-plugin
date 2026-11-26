@@ -36,7 +36,7 @@ The first operation in the template. It is responsible for the preliminary clean
 ### A - CMO Dashboard
 
 This operation adds data into a [table](https://github.com/OWOX/transformations-plugin/blob/main/docs/templates/cmo-dashboard.md#template-result-data-schema-of-the-table-for-the-cmo-dashboard), which is acceptable for the dashboard. You can copy a [dashboard](https://lookerstudio.google.com/reporting/465211d2-1862-41dd-8a78-b3f5ea462b06/page/p_3qe1fmlb7c/edit) template and connect a table to it and get a perfect all-in-one dashboard for data analyzing, getting insights, and other marketing efforts:   
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-cmo-dashboard/01/public)  
+![](https://cdn.owox.com/plugins/transformations/templates-cmo-dashboard/01/public)  
   
 [How to add Google Big Query table as the Data Source in Looker Studio.](https://support.google.com/looker-studio/answer/6295968)   
 🎉
@@ -52,15 +52,15 @@ In this article, you will find step-by-step instructions about how to create a T
 
 **Step 1.** Go to the Workspace page and click the "New..." button in the top panel over the diagram. Choose the “New transformation” option in the popup menu.
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-cmo-dashboard/02/public)
+![](https://cdn.owox.com/plugins/transformations/templates-cmo-dashboard/02/public)
 
 **Step 2.** Now you will see the dialog with Templates gallery options. Choose the 'CMO Dashboard'  template from the list in the sidebar:
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-cmo-dashboard/03/public)
+![](https://cdn.owox.com/plugins/transformations/templates-cmo-dashboard/03/public)
 
 **Step 3.** Click on the “Create & setup” button. And you will see your new Transformation:
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-cmo-dashboard/04/public)
+![](https://cdn.owox.com/plugins/transformations/templates-cmo-dashboard/04/public)
 
 ### How you can customize the template
 

@@ -105,15 +105,15 @@ In this article, you will find step-by-step instructions about how to create a T
 
 **Step 1.** Go to the Workspace page and click the "New..." button in the top panel over the diagram or list. Choose the “New transformation” option in the popup menu.
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-merge-events-web-streaming/01/public)
+![](https://cdn.owox.com/plugins/transformations/templates-merge-events-web-streaming/01/public)
 
 **Step 2.** Now you will see the dialog with Templates gallery options. Choose the "Merge Events into Sessions" template from the list in the sidebar:
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-merge-events-web-streaming/02/public)
+![](https://cdn.owox.com/plugins/transformations/templates-merge-events-web-streaming/02/public)
 
 **Step 3.** Click on the “Create & setup” button. And you will see your new Transformation:
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-merge-events-web-streaming/03/public)
+![](https://cdn.owox.com/plugins/transformations/templates-merge-events-web-streaming/03/public)
 
 ### How you can customize the template
 

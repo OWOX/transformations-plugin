@@ -35,7 +35,7 @@ The transformation process inputs the raw data stored in the OWOX BI pipelines�
 
 Operations are provided in the template and are designed to be easily customizable by inserting the [required variables](https://github.com/OWOX/transformations-plugin/blob/main/docs/templates/blended-adspend.md#variables-list-for-transformation-template-blended-adspend--ga4-cost-data-import). The template has all the essential variables by default, so there is no need to enter all the values from the beginning:
 
-![values.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/01/public)
+![values.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/01/public)
 
 The actual SQL code of each Operation is automatically generated when the Transformation Template is set up in your OWOX BI Project.
 
@@ -103,7 +103,7 @@ The operation selects data from tables generated in Google BigQuery after settin
 Please, follow [our instructions to import Google Ads Data into Google BigQuery.](https://github.com/OWOX/streaming-plugin/blob/main/docs/hit-based/web-tracking/setting-up-raw-data-collection-about-google-ads-campaigns-with-auto-tagging.md)
 
 > **IMPORTANT:**  
-> You'll need to use only one operation of the above for Google Ads Data. If you have both sources from Google Ads, please, turn on 'Ignore for running'  for one of the operations to prevent duplicating the data in the output tables. You can pause or unpause the operation by following the steps in the pictures below: ![google\_ads\_data\_operations.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/02/public) ![google\_ads\_data\_operations\_.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/03/public)
+> You'll need to use only one operation of the above for Google Ads Data. If you have both sources from Google Ads, please, turn on 'Ignore for running'  for one of the operations to prevent duplicating the data in the output tables. You can pause or unpause the operation by following the steps in the pictures below: ![google\_ads\_data\_operations.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/02/public) ![google\_ads\_data\_operations\_.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/03/public)
 
 ### A – Custom
 
@@ -111,7 +111,7 @@ The operation selects data from the custom table generated in Google BigQuery. Y
 
 **Step 1.** You can find the Google Sheets template for manual adding costs [by the link](https://docs.google.com/spreadsheets/d/1QJR-cxV_2uPOOvYBkc_mMFzdfF8CqrRZ5ak7yrcVtMw/edit?usp=sharing). Please, copy the template to your Google Drive:
 
-![manual\_costs.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/04/public)
+![manual\_costs.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/04/public)
 
 **Step 2.** Fill the values in the template with your cost data.
 
@@ -124,11 +124,11 @@ Please, note, that date ranges should be filled with date\_start and date\_end v
 
 **Step 4.** Change the variable `{{table_id_custom}}` in the 'Blended Adspend + GA4 Cost Data Import' transformation template to the table's name. For example, if the table has the name 'cute-gbq-project.OWOXBI\_BlendedAdSpend.custom\_data', specify 'custom\_data' in the variable:
 
-![custom\_data.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/05/public)
+![custom\_data.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/05/public)
 
 **Step 5**. Don't forget to enable operation **A** **— Custom** in the transformation:
 
-![custom.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/06/public)
+![custom.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/06/public)
 
 If you have questions about importing custom data to Google BigQuery, you can contact us via email at [bi@owox.com](mailto:bi@owox.com).
 
@@ -138,7 +138,7 @@ The operation prepares data for import to Google Analytics 4 and creates the tab
 Need help with this? Read Import non-Google costs into Google Analytics 4 solution.
 
 > **IMPORTANT:**  
-> Please, disable all unnecessary operations. You must select only operations for existing pipelines in your OWOX BI project. For example, if you have Facebook → Google BigQuery pipeline and LinkedIn → Google BigQuery pipeline, the first run of transformation must look like in the screenshot below: ![operations.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/07/public)
+> Please, disable all unnecessary operations. You must select only operations for existing pipelines in your OWOX BI project. For example, if you have Facebook → Google BigQuery pipeline and LinkedIn → Google BigQuery pipeline, the first run of transformation must look like in the screenshot below: ![operations.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/07/public)
 
 After the last operation, you will get tables with data ready for further analysis and reporting 🎉
 
@@ -155,15 +155,15 @@ In this article, you will find step-by-step instructions about how to create a T
 
 **Step 1.** Go to the Workspace page and click the "New..." button in the top panel over the diagram. Choose the “New transformation” option in the popup menu.
 
-![Frame\_2033.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/08/public)
+![Frame\_2033.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/08/public)
 
 **Step 2.** Now you will see the dialog with Templates gallery options. Choose the "Blended AdSpend" template from the list in the sidebar:
 
-![Frame\_2031.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/09/public)
+![Frame\_2031.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/09/public)
 
 **Step 3.** Click on the “Create & setup” button. And you will see your new Transformation:
 
-![Screenshot\_2023-03-20\_at\_18.41.55.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-blended-adspend/10/public)
+![Screenshot\_2023-03-20\_at\_18.41.55.png](https://cdn.owox.com/plugins/transformations/templates-blended-adspend/10/public)
 
 ### How you can customize the template
 

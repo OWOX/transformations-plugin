@@ -12,7 +12,7 @@ In this article, we will guide you on where to find and explore the full list of
 
 ### Templates gallery in the Help Center
 
-![\_\_\_109.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-readme/01/public)
+![\_\_\_109.png](https://cdn.owox.com/plugins/transformations/templates-readme/01/public)
 
 All the templates are organized in the "[Templates gallery](https://github.com/OWOX/transformations-plugin/tree/main/docs/templates)" category of our Help Center. Here, you can find detailed descriptions for each template, from its configuration to the data schema in the final BigQuery table.
 
@@ -20,13 +20,13 @@ All the templates are organized in the "[Templates gallery](https://github.com/O
 
 To access the templates from the product interface, go to the [Workspace page](https://bi.owox.com/ui/app/none/workspace), click on "**New**", and then select "**Transformation**".
 
-![\_\_\_110.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-readme/02/public)
+![\_\_\_110.png](https://cdn.owox.com/plugins/transformations/templates-readme/02/public)
 
 On the next screen, you will see a full list of available Transformation templates.  
-![\_\_\_111.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-readme/03/public)
+![\_\_\_111.png](https://cdn.owox.com/plugins/transformations/templates-readme/03/public)
 
 On the right side of the list, you will find a description of each template, along with a list of Operations and their descriptions.  
-![\_\_\_112.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-readme/04/public)
+![\_\_\_112.png](https://cdn.owox.com/plugins/transformations/templates-readme/04/public)
 
 ### Creating new Transformations in your OWOX BI project
 
@@ -44,7 +44,7 @@ After successfully creating a Transformation based on a template configuration, 
 
 ### Step 1. Replace the 'YOUR\_VALUE' text in the variables
 
-![\_\_\_\_01.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-readme/05/public)
+![\_\_\_\_01.png](https://cdn.owox.com/plugins/transformations/templates-readme/05/public)
 
 As the Transformation template is designed for multiple copies and reuse, it contains a list of variables. Some of these variables already have values that do not need to be changed.
 
@@ -57,7 +57,7 @@ You can find the full list of variables for each template in the "[Templates gal
 ###   
 Step 2. Enable or disable Operations that you need
 
-![\_\_\_\_02.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-readme/06/public)
+![\_\_\_\_02.png](https://cdn.owox.com/plugins/transformations/templates-readme/06/public)
 
 Some templates are so versatile that before running the Transformation, you need to review the list of Operations and disable some of them if you don't have the required BigQuery tables for the SQL query.
 
@@ -67,7 +67,7 @@ For instance, the "[Blended Adspend + GA4 Cost Data Import](https://github.com/O
 
 On the **Used datasets** tab, you can see a list of datasets specified in the SQL queries of this Transformation. If the service account OWOX BI doesn't have access to a dataset, you will see a red text saying "No access."
 
-![\_\_\_\_03.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-readme/07/public)
+![\_\_\_\_03.png](https://cdn.owox.com/plugins/transformations/templates-readme/07/public)
 
 Check the **GCP project ID** and **Dataset ID**. If you see here the text 'YOUR\_VALUE', then go to step 1 and update variables with correct names.
 
@@ -96,7 +96,7 @@ To facilitate convenient data import from any data source: like databases such a
     **After running the Transformations, the data will appear in your GBQ.
     
 
-![owox\_import\_data\_scheme.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-readme/08/public)
+![owox\_import\_data\_scheme.png](https://cdn.owox.com/plugins/transformations/templates-readme/08/public)
 
 ### Conclusion
 

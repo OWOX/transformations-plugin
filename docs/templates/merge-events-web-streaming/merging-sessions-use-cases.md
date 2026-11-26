@@ -12,7 +12,7 @@ If the parameter `'analytics_storage = denied'` is present, indicating that the 
 -   events with empty `user_pseudo_id` will not be discarded. They would form short single-event sessions, based on a random identifier (`cross_id`), that is generated for them at the SQL code level;
 -   these sessions would save their UTM markup if the events have it.
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-merge-events-web-streaming-merging-sessions-use-cases/01/public)  
+![](https://cdn.owox.com/plugins/transformations/templates-merge-events-web-streaming-merging-sessions-use-cases/01/public)  
   
 
 > **Note:**  
@@ -65,7 +65,7 @@ More about multiple sources can be found in the [corresponding article](https://
     -   If data with this ‘_gclid_’ **was found**, then the found values will be written to the session tables _owoxbi\_sessions_. Then, `trafficSource.source` and `trafficSource.medium`will receive google / cpc values. 
     -   The ‘_(not set)_’ value will be written if not found for all, except `trafficSource.source` and `trafficSource.medium` - they will receive direct / (none) values. 
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-merge-events-web-streaming-merging-sessions-use-cases/02/public)
+![](https://cdn.owox.com/plugins/transformations/templates-merge-events-web-streaming-merging-sessions-use-cases/02/public)
 
 ### Auto-tagging option
 
@@ -76,7 +76,7 @@ When the **“Auto-tagging”** option is selected, the Merge Events into Sessio
     -   If data on this ‘_gclid_’ **is found**, then the found value will be written to the session table _owoxbi\_sessions_.
     -   The ‘_(not set)_’ value will be written if not found, except `trafficSource.source` and `trafficSource.medium` - they will receive google / cpc values. 
 
-![](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/templates-merge-events-web-streaming-merging-sessions-use-cases/03/public)
+![](https://cdn.owox.com/plugins/transformations/templates-merge-events-web-streaming-merging-sessions-use-cases/03/public)
 
 ## Use case: GBRAID and WBRAID
 

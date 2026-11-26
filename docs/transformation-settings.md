@@ -19,9 +19,9 @@ Transformation variables allow you to create special types of content that can t
 ### Create a Dynamic Variable
 
 1.  Click the ‘+’ button in the variable section.  
-    ![01new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/01/public)  
+    ![01new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/01/public)  
       
-    ![02\_correct.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/02/public)
+    ![02\_correct.png](https://cdn.owox.com/plugins/transformations/transformation-settings/02/public)
 2.  Choose a variable type: String, Integer, or Float.
 3.  Enter a unique variable name. It should consist of alphanumeric characters and underscores, should always start with a letter, and should not have any kind of leading sigil (that is, they look like `var_name`).
 4.  Enter a value.
@@ -31,27 +31,27 @@ Transformation variables allow you to create special types of content that can t
 
 The list of Transformation variables is displayed in the left sidebar.
 
-![\_\_\_61new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/03/public)
+![\_\_\_61new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/03/public)
 
 **Variable highlighting in the list:**
 
 The list of variables includes color-coded highlights to indicate their usage within the current Operation. Variables that are actively utilized in the Operation are highlighted in blue.
 
-![\_\_\_62new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/04/public)
+![\_\_\_62new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/04/public)
 
 Variables not utilized in any Operation are displayed in light gray text.
 
-![\_\_\_63new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/05/public)
+![\_\_\_63new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/05/public)
 
 Additionally, when you hover over a variable name, a tooltip provides information about the Operations in which the variable is utilized.
 
-![\_\_\_64new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/06/public)
+![\_\_\_64new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/06/public)
 
 **Default values for variables in the OWOX BI template**
 
 If you've created a Transformation from one of the templates, you will see a red highlight for variables that you need to customize:
 
-![\_\_\_\_01.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/07/public)
+![\_\_\_\_01.png](https://cdn.owox.com/plugins/transformations/transformation-settings/07/public)
 
 Read more instructions about customizing templates [in this article](https://github.com/OWOX/transformations-plugin/blob/main/docs/templates/README.md#how-to-customize-a-template-in-3-simple-steps).
 
@@ -59,7 +59,7 @@ Read more instructions about customizing templates [in this article](https://git
 
 You can modify the order of variables by simply clicking on the icon next to the variable name and dragging it up or down the list.
 
-![\_\_\_65new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/08/public)
+![\_\_\_65new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/08/public)
 
 ### Using Variables in SQL Code
 
@@ -97,13 +97,13 @@ When the Transformation is run, an output statement in SQL code gets replaced wi
 
 To edit a variable, click on it in the list. Then you can change the variables settings: type, name, and value. Click the ‘Save variable’ button to apply changes and close the popup.
 
-![07new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/09/public)
+![07new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/09/public)
 
 ### Delete Variable
 
 To delete a variable, click on it in the list. Then click the Delete button in the opened popup. After that check, your code does not use this variable.
 
-![08new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/10/public)
+![08new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/10/public)
 
 ## Used datasets tab
 
@@ -120,11 +120,11 @@ If you create the Transformation from one of the templates, please [follow this 
 
 If you create the Transformation from scratch, immediately after creating the Transformation, this list of Used datasets is empty. Therefore, you will see a message on the screen, as shown in the screenshot below.
 
-![Screenshot\_2023-05-19\_at\_18.36.00.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/11/public)
+![Screenshot\_2023-05-19\_at\_18.36.00.png](https://cdn.owox.com/plugins/transformations/transformation-settings/11/public)
 
 After you write the SQL code, configure the Destination, and click the '**Save transformation**' button to save your changes. The list of datasets will be updated after a successful saving of the Transformation. If there is no access to one or more datasets, you will see a warning message "No access to datasets" next to the 'Run' button after saving.
 
-![02.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/12/public)
+![02.png](https://cdn.owox.com/plugins/transformations/transformation-settings/12/public)
 
 Go to the '**Used datasets**' tab to view the list of used datasets that displays:
 
@@ -137,14 +137,14 @@ By clicking on the Dataset ID, you can expand additional information about it.
 
 For 'No access' status you will see the text message and the 'Share dataset' button:
 
-![\_\_\_\_03.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/13/public)
+![\_\_\_\_03.png](https://cdn.owox.com/plugins/transformations/transformation-settings/13/public)
 
 > **Note:**  
 > Every time you save changes in the Transformation, the list of datasets is updated. Be attentive when writing SQL code and avoid typos in project, dataset, and table names.
 
 For 'Granted' status you will see the list of Operations that use this dataset and a link to the Google BigQuery interface:
 
-![\_\_\_\_04.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/14/public)
+![\_\_\_\_04.png](https://cdn.owox.com/plugins/transformations/transformation-settings/14/public)
 
 ### How to share BigQuery dataset with OWOX BI
 
@@ -152,25 +152,25 @@ If a Transformation uses data from BigQuery datasets that are not accessible to 
 
 To run the Transformation and obtain the execution results for each Operation, you need to grant access to all the used datasets. To do this, click on the '**Share used datasets**' button.
 
-![04.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/15/public)
+![04.png](https://cdn.owox.com/plugins/transformations/transformation-settings/15/public)
 
 Open [this instruction](https://www.owox.com/docs/storages/google-bigquery/) and follow steps 4 and 5 to grant access to each dataset. You need to authenticate with a Google account that you use in BigQuery with either the '**BigQuery Admin**' or '**BigQuery Data Owner**' role.
 
-![08.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/16/public)
+![08.png](https://cdn.owox.com/plugins/transformations/transformation-settings/16/public)
 
 After successful authentication, please wait while the sharing process will complete.
 
-![09.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/17/public)
+![09.png](https://cdn.owox.com/plugins/transformations/transformation-settings/17/public)
 
 If everything goes smoothly, the statuses in the dataset list will be updated, and you will see green text indicating 'Granted'. If any of the datasets fail to be shared, you will be presented with an error description along with recommendations for the next steps. Example of the error description:
 
-![10.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/18/public)
+![10.png](https://cdn.owox.com/plugins/transformations/transformation-settings/18/public)
 
 To view the error log click on the "?" icon. Close this popup, fix errors, and try to share the datasets again by clicking on the '**Share used datasets**' button.
 
 When all datasets have the 'Granted' status, the red warning text next to the 'Run' button will disappear.
 
-![07.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/19/public)
+![07.png](https://cdn.owox.com/plugins/transformations/transformation-settings/19/public)
 
 You are all done.
 
@@ -184,11 +184,11 @@ Go to the **Triggers** tab. Add a trigger to run your Transformation automatical
 
 Here you can see an empty list of triggers...
 
-![trgrs01new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/20/public)
+![trgrs01new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/20/public)
 
 ... or you can see a list of already added triggers:
 
-![trgrs15new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/21/public)
+![trgrs15new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/21/public)
 
 You can create multiple triggers for a Transformation. Please note that each Transformation run is charged according to the terms of use. Read more in [this article](https://www.owox.com/docs/getting-started/consumption-units/).
 
@@ -197,10 +197,10 @@ You can create multiple triggers for a Transformation. Please note that each Tra
 #### How to set up a Time trigger
 
 1.  Click on the “+” button to add a new time trigger.  
-    ![trgrs02.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/22/public)
+    ![trgrs02.png](https://cdn.owox.com/plugins/transformations/transformation-settings/22/public)
 2.  For **Time-frequency**, choose one of the following options:
     
-    ![trgrs16new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/23/public)
+    ![trgrs16new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/23/public)
     
     -   Repeated: (Default) Select the time intervals.
     -   Start every hour: Select the minute of the hour.
@@ -208,7 +208,7 @@ You can create multiple triggers for a Transformation. Please note that each Tra
     -   Start every week: Select the days, hours, minutes, and time zone.
     -   Start every month: Select the days, hours, minutes, and time zone.
 3.  Click the ‘**Save transformation**’ button to apply your changes.  
-    ![trgrs03new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/24/public)  
+    ![trgrs03new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/24/public)  
       
     
 
@@ -219,7 +219,7 @@ You can create multiple triggers for a Transformation. Please note that each Tra
 
 Disable the trigger using the toggle button instead of deleting it. This functionality comes in handy when you want to temporarily stop the Transformation from running automatically while you are modifying the SQL code of the Operations within it.
 
-![trgrs04new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/25/public)
+![trgrs04new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/25/public)
 
 And don't forget to click the ‘Save transformation’ button to apply your changes.
 
@@ -227,7 +227,7 @@ And don't forget to click the ‘Save transformation’ button to apply your cha
 
 1.  Click on the “...” icon to open the context menu.
 2.  Click the “Delete trigger” button.  
-    ![trgrs05new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/26/public)
+    ![trgrs05new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/26/public)
 3.  Click the ‘**Save transformation**’ button to apply your changes.
 
 #### How to use multiple Time triggers
@@ -236,29 +236,29 @@ You can add more than one Time trigger for each Transformation. To do this, clic
 
 Let's look at this example below. This means that the 'Untitled transformation' could be scheduled to run on the 1st, 10th, and 20th day of every month, **OR** it could be scheduled to start every week on Monday and Friday.
 
-![trgrs14new.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/27/public)
+![trgrs14new.png](https://cdn.owox.com/plugins/transformations/transformation-settings/27/public)
 
 ### Dependency trigger
 
 #### How to set up a Dependency trigger
 
 1.  Click on the “+” button to add a new Dependency trigger.  
-    ![trgrs08.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/28/public)
+    ![trgrs08.png](https://cdn.owox.com/plugins/transformations/transformation-settings/28/public)
 2.  Click on the '+ Dependency item' button in the new trigger card.  
-    ![trgrs09.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/29/public)
+    ![trgrs09.png](https://cdn.owox.com/plugins/transformations/transformation-settings/29/public)
 3.  In a new side popup, you can choose Transformations on which the start of the current Transformation will depend.  
-    ![trgrs10.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/30/public)  
+    ![trgrs10.png](https://cdn.owox.com/plugins/transformations/transformation-settings/30/public)  
     The launch of the current transformation will only take place once all the transformations listed in the 'Dependency items' list have been successfully executed.  
-    ![trgrs11.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/31/public)
+    ![trgrs11.png](https://cdn.owox.com/plugins/transformations/transformation-settings/31/public)
 4.  Click the 'Save' button in the popup. And you will see the Dependency trigger setup in the card below:  
-    ![trgrs12.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/32/public)
+    ![trgrs12.png](https://cdn.owox.com/plugins/transformations/transformation-settings/32/public)
 5.  Click the ‘Save transformation’ button to apply your changes.
 
 #### How to disable a Dependency trigger
 
 Disable the trigger using the toggle button instead of deleting it. This functionality comes in handy when you want to temporarily stop the Transformation from running automatically while you are modifying the SQL code of the Operations within it.
 
-![trgrs06.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/33/public)
+![trgrs06.png](https://cdn.owox.com/plugins/transformations/transformation-settings/33/public)
 
 And don't forget to click the ‘Save transformation’ button to apply your changes.
 
@@ -266,7 +266,7 @@ And don't forget to click the ‘Save transformation’ button to apply your cha
 
 1.  Click on the “...” icon to open the context menu.
 2.  Click the “Delete trigger” button.  
-    ![trgrs07.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/34/public)
+    ![trgrs07.png](https://cdn.owox.com/plugins/transformations/transformation-settings/34/public)
 3.  Click the ‘Save transformation’ button to apply your changes.
 
 #### How to use multiple Dependency triggers
@@ -275,7 +275,7 @@ You can add more than one Dependency trigger for each Transformation. To do this
 
 Let's look at the example below. This means that the 'Untitled transformation' could be scheduled to run after either the 'Transformation B' and 'Transformation C' transformations **OR** after the 'Transformation F' transformation.
 
-![trgrs13.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/35/public)
+![trgrs13.png](https://cdn.owox.com/plugins/transformations/transformation-settings/35/public)
 
 ## Creating a new Transformation
 
@@ -283,11 +283,11 @@ Let's look at the example below. This means that the 'Untitled transformation' c
 
 1.1. Go to the [Workspace page](https://bi.owox.com/ui/app/none/workspace). Click the "**New...**" button in the top panel and choose the “Transformation” menu item.
 
-![\_\_\_\_create-transfrom.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/36/public)
+![\_\_\_\_create-transfrom.png](https://cdn.owox.com/plugins/transformations/transformation-settings/36/public)
 
 1.2. Create a **new blank** or **template-based** Transformation. Choose one option from the list in the sidebar:
 
-![1120.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/37/public)
+![1120.png](https://cdn.owox.com/plugins/transformations/transformation-settings/37/public)
 
 While browsing the [Templates gallery](https://github.com/OWOX/transformations-plugin/tree/main/docs/templates), you can read the detailed template description and see a list of Operations.
 
@@ -300,15 +300,15 @@ While browsing the [Templates gallery](https://github.com/OWOX/transformations-p
 Let's look at the Transformation page anatomy. The page consists of the following sections and elements:
 
 1.  **The top bar** shows the Transformation title with control buttons and a button to return to the previous screen.  
-    ![\_\_\_01.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/38/public)  
+    ![\_\_\_01.png](https://cdn.owox.com/plugins/transformations/transformation-settings/38/public)  
       
     
 2.  **The tab panel:** Run history, Code editor, Used datasets, Autorun triggers, and Info tabs.  
-    ![\_\_\_02.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/39/public)  
+    ![\_\_\_02.png](https://cdn.owox.com/plugins/transformations/transformation-settings/39/public)  
       
     
 3.  **The tab content:** depending on the selected tab, the content of this tab is displayed in the central part of the screen.  
-    ![\_\_\_03.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/40/public)
+    ![\_\_\_03.png](https://cdn.owox.com/plugins/transformations/transformation-settings/40/public)
 
 **You might be interested in...**
 
@@ -318,11 +318,11 @@ And now you can [rename the title](https://github.com/OWOX/transformations-plugi
 
 Open the '**Info**' tab on the Transformation page. Here you can see three inputs: Owner name, Email, and Description. With the 'Owner name' and 'Email' fields, you can easily specify who is responsible for the current Transformation, which can be helpful when working with colleagues in a team.
 
-![Frame](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/41/public)
+![Frame](https://cdn.owox.com/plugins/transformations/transformation-settings/41/public)
 
 The 'Description' field allows you to provide more information about the Transformation you are working on. You can use formatted text, such as bold, italic, underline, headers, bulleted and numbered lists, links to other web pages, code snippets, quotes blocks, and more to make it easier for your teammates to understand your idea and solution.
 
-![Frame\_2026.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/42/public)
+![Frame\_2026.png](https://cdn.owox.com/plugins/transformations/transformation-settings/42/public)
 
 ## How to stop Transformation run during execution
 
@@ -355,7 +355,7 @@ OWOX BI offers users a user-friendly interface to manage their Transformations. 
 
 ### Deleting a Transformation from the Workspace list
 
-![delete-transform-from-workspace.gif](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/45/public)
+![delete-transform-from-workspace.gif](https://cdn.owox.com/plugins/transformations/transformation-settings/45/public)
 
 1\. Find in the list the Transformation that you want to delete.
 
@@ -367,7 +367,7 @@ OWOX BI offers users a user-friendly interface to manage their Transformations. 
 
 ### Deleting a Transformation on the Transformations page
 
-![delete-transform-from-page.gif](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/46/public)
+![delete-transform-from-page.gif](https://cdn.owox.com/plugins/transformations/transformation-settings/46/public)
 
 1\. Open the Transformation that you want to delete.
 
@@ -385,17 +385,17 @@ If you accidentally delete an important Transformation and need to restore it, p
 
 You can rename a Transformation, just click on the title and write a new one.
 
-![Screenshot\_2023-03-21\_at\_13.52.31.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/47/public)
+![Screenshot\_2023-03-21\_at\_13.52.31.png](https://cdn.owox.com/plugins/transformations/transformation-settings/47/public)
 
 Then click outside the title area. **Save** your changes.
 
-![Screenshot\_2023-03-21\_at\_13.53.24.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/48/public)
+![Screenshot\_2023-03-21\_at\_13.53.24.png](https://cdn.owox.com/plugins/transformations/transformation-settings/48/public)
 
 ## Run history tab
 
 The '**Run history**' tab is the first and default tab on the Transformation page. Here, you will find a sidebar with a list of runs and detailed information about the selected run.
 
-![\_\_\_13.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/49/public)
+![\_\_\_13.png](https://cdn.owox.com/plugins/transformations/transformation-settings/49/public)
 
 ### List of runs
 
@@ -415,11 +415,11 @@ The left menu contains the following information:
 
 To update information about running the Transformation, click on the icon.
 
-![\_\_\_17.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/50/public)
+![\_\_\_17.png](https://cdn.owox.com/plugins/transformations/transformation-settings/50/public)
 
 After manually running the Transformation, the user navigates to the 'Run history' tab, where the current Run status is displayed in the sidebar and automatically updates every 5-10 seconds.
 
-![\_\_\_12.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/51/public)
+![\_\_\_12.png](https://cdn.owox.com/plugins/transformations/transformation-settings/51/public)
 
 Clicking the '**View more**' button lets you easily load the next 30 runs. You can review the history of runs for **up to the past 90 days** or **at least the last 100 runs for any period**.
 
@@ -428,25 +428,25 @@ Clicking the '**View more**' button lets you easily load the next 30 runs. You c
 Detailed information about running the Transformation is presented in three parts:
 
 -   **Overall about Transformation:** run ID, status, and run time. This information will be helpful when contacting [bi@owox.com](mailto:bi@owox.com) if you have any questions.  
-    ![\_\_\_14.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/52/public)
+    ![\_\_\_14.png](https://cdn.owox.com/plugins/transformations/transformation-settings/52/public)
 -   **Short overview of each Operation in the Transformation:** run ID, status, run time, and Destination settings.   
-    ![\_\_\_15.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/53/public)
+    ![\_\_\_15.png](https://cdn.owox.com/plugins/transformations/transformation-settings/53/public)
 -   **List of Variables with values**. This log section is displayed only if variables have been created and used in the Transformation.  
-    ![\_\_\_18.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/54/public)
+    ![\_\_\_18.png](https://cdn.owox.com/plugins/transformations/transformation-settings/54/public)
 -   **Detailed info about each Operation**: title, status, Operation ID, time start and end, duration, Operation run count, and Destination settings.  
-    ![\_\_\_16.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/55/public)
+    ![\_\_\_16.png](https://cdn.owox.com/plugins/transformations/transformation-settings/55/public)
 -   **Compiled SQL code for each Operation:** this code executes through the Google BigQuery API, and it’s helpful for you while you are debugging.  
-    ![\_\_\_20.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/56/public)
+    ![\_\_\_20.png](https://cdn.owox.com/plugins/transformations/transformation-settings/56/public)
 
 When contacting with OWOX BI Support Team, you can copy the full text of the logs by clicking on this icon:
 
-![\_\_\_19.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/57/public)
+![\_\_\_19.png](https://cdn.owox.com/plugins/transformations/transformation-settings/57/public)
 
 ## How to activate a blocked Transformation
 
 When a transformation is blocked, it will display a "Blocked" label in the top bar of the Transformation page, along with a button labeled Show blocked reasons. A transformation in this status cannot be executed until the underlying issues are resolved.
 
-![01.png](https://imagedelivery.net/zKr-4bdC5CBGL2DuuEmvYw/plugins/transformations/transformation-settings/58/public)
+![01.png](https://cdn.owox.com/plugins/transformations/transformation-settings/58/public)
 
 ### How to activate
 
